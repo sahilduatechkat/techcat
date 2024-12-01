@@ -15,20 +15,20 @@ const Footer = () => {
                 className='w-[104px] h-[32px] lg:w-[180px] lg:h-auto'
             />
             <article className='flex items-center gap-4 '>
-                <a href="">
+                <a href="https://www.linkedin.com/company/tech-katalyst/" target='_blank'>
                     <Image 
                         src={LinkedinLogo}
                         alt='linkedin'
                         className='w-[28px] lg:w-[36px] h-[28px] lg:h-[36px]'
                     />
                 </a>
-                <a href="">
+                {/* <a href="">
                     <Image 
                         src={TwitterLogo}
                         alt='twitter'
                         className='w-[28px] lg:w-[36px] h-[28px] lg:h-[36px]'
                     />
-                </a>
+                </a> */}
             </article>
         </div>
         {/* <article className='items-center space-x-12 text-white flex lg:hidden pt-4'>
@@ -45,17 +45,17 @@ const Footer = () => {
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <p className='font-semibold text-white'> Our services </p>
         <div className='flex flex-wrap gap-4 mt-5'>
-            <Link className='text-sm text-white' href="/services/market-research"> Market Research </Link>
-            <Link className='text-sm text-white' href="/services/product-management"> Product Management </Link>
-            <Link className='text-sm text-white' href="/services/web-development"> Web development </Link>
-            <Link className='text-sm text-white' href="/services/mobile-app-development">Mobile App development</Link>
-            <Link className='text-sm text-white' href="/services/analytics-data-science">Analytics & Data Science</Link>
-            <Link className='text-sm text-white' href="/services/ui-ux-design">Product UI/UX design</Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/services/market-research"> Market Research </Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/services/product-management"> Product Management </Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/services/web-development"> Web development </Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/services/mobile-app-development">Mobile App development</Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/services/analytics-data-science">Analytics & Data Science</Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/services/ui-ux-design">Product UI/UX design</Link>
         </div>
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <div className='flex gap-20 text-white'>
-            <Link className='text-sm text-white' href="/about-us">About us</Link>
-            <Link className='text-sm text-white' href="/contact-us">Contact us</Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/about-us">About us</Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/contact-us">Contact us</Link>
         </div>
         <p className='text-sm text-[rgba(255,255,255,0.6)] mt-6 lg:text-center'>
             © Copyright 2024, All Rights Reserved by Tech Katalyst

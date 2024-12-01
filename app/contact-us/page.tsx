@@ -42,20 +42,20 @@ export default function ContactUsPage() {
                     </ContactBulletPoint>
                 </div>
                 <article className='flex items-center gap-4 '>
-                    <a href="">
+                    <a href="https://www.linkedin.com/company/tech-katalyst/" target='_blank'>
                         <Image 
                             src={LinkedinLogo}
                             alt='linkedin'
                             className='w-[28px] h-[28px]'
                         />
                     </a>
-                    <a href="">
+                    {/* <a href="">
                         <Image 
                             src={TwitterLogo}
                             alt='twitter'
                             className='w-[28px] h-[28px]'
                         />
-                    </a>
+                    </a> */}
                 </article>
             </div>
             <div className='bg-white lg:pl-10 col-span-3 border border-[#E7E7E7]'>

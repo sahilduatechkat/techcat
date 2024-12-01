@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Calendar from '../Common/Calendar'
 
 export const OtherQuestionsSection = () => {
   return (
@@ -16,9 +17,7 @@ export const OtherQuestionsSection = () => {
         <p className='text-[#6A6A6A] text-base pt-4 text-center'>
             Can’t find the answer you’re looking for? Please chat to our friendly team.
         </p>
-        <button className='text-sm lg:text-base bg-[#5A3AEC] hover:bg-[#9EE463] hover:text-[#5A3AEC] transition-all duration-300 font-semibold text-white py-3 lg:py-4 px-10 w-full lg:w-auto block lg:inline-block mt-9'>
-            Get in touch
-        </button>
+        <Calendar text='Get in touch' className='mt-9' />
     </div>
   )
 }

@@ -20,14 +20,14 @@ export const Header = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div className="absolute -left-full top-[170%] opacity-0 group-hover:opacity-100 flex hover:opacity-100 w-64 bg-[#B7FD7E] border-4 border-[#7000FF] shadow-2xl mt-2 py-2 rounded-sm z-10 flex-col transition-opacity duration-300">
-                  <Image 
+                <div className="absolute -left-full top-[170%] opacity-0 group-hover:opacity-100 flex hover:opacity-100 w-64 bg-[#fff]  shadow-2xl mt-2 py-2 rounded-sm z-[1000] flex-col transition-opacity duration-300">
+                  {/* <Image 
                       src="/right-arrow.png"
                       alt='right-arrow'
                       className='absolute color-transparent translate-x-[-50%] right-[40%] top-[-31px] rotate-[270deg]'
                       width={24}
                       height={28}
-                  />
+                  /> */}
                   <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/mobile-app-development">
                     Mobile App Development
                   </Link>

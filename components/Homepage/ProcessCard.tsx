@@ -3,7 +3,7 @@ import React from 'react'
 
 export const ProcessCard = ({ title, subtitle, allowArrow=true } : { title: string, subtitle: string, allowArrow?: boolean }) => {
   return (
-    <div className='flex flex-col bg-[#B7FD7E] p-6 relative border-[#5A3AEC] border-4'>
+    <div className='flex flex-col bg-[#B7FD7E] p-6 relative border-[#5A3AEC] border-4 w-[280px]'>
         { allowArrow && (
             <Image 
                 src="/right-arrow.png"

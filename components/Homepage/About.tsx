@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div className=' lg:h-[584px] px-[24px] lg:px-[100px] mt-[40px] lg:mt-[120px]'>
         <article className='bg-[#9EE463] w-full h-auto relative overflow-hidden z-10 p-6 lg:py-20 lg:px-12 xl:p-20'>
-            <p className={`${poppins.className} text-[20px] leading-[24px] lg:text-[40px] lg:leading-[48px] xl:text-5xl xl:leading-[60px] font-bold text-center mx-auto`}>
+            <p className={`text-[20px] leading-[24px] lg:text-[40px] lg:leading-[48px] xl:text-5xl xl:leading-[60px] font-bold text-center mx-auto`}>
                 We are tech experts who use technology to innovate and transform businesses
             </p>
             <p className={`text-sm lg:text-base mx-auto mt-6 text-center xl:w-[90%] text-[#212121]`}>
