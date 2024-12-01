@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import LogoWhite from '@/public/logo-white.png'
 import LinkedinLogo from '@/public/linkedin.png'
-import TwitterLogo from '@/public/twitter.png'
+// import TwitterLogo from '@/public/twitter.png'
 import Link from 'next/link'
 
 const Footer = () => {

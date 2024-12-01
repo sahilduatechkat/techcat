@@ -1,5 +1,4 @@
 import React from 'react'
-import { poppins } from '@/helpers/fonts'
 
 export const About = () => {
   return (

@@ -4,7 +4,7 @@ import React from 'react'
 import { GetInTouchForm } from '@/components/Services/GetInTouchSection'
 import Image from 'next/image'
 import LinkedinLogo from '@/public/linkedin.png'
-import TwitterLogo from '@/public/twitter.png'
+// import TwitterLogo from '@/public/twitter.png'
 
 export default function ContactUsPage() {
   return (
