@@ -20,7 +20,7 @@ export default function ContactUsPage() {
             <div className='bg-white p-6 lg:p-10 col-span-2 flex flex-col justify-between border border-[#E7E7E7]'>
                 <div>
                     <ContactBulletPoint className="mb-10" imageSrc="/images/message-us.png">
-                        <p className='text-[#212121] font-medium'>Chat to us</p>
+                        <p className='text-[#212121] font-medium'>Chat with us</p>
                         <p className='text-[#8A8A8A] text-sm'>Our friendly team is here to help</p>
                         <p className='mt-3 text-sm text-[#212121]'>
                             hi@techkatalyst.com
