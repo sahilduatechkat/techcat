@@ -8,7 +8,7 @@ const WorkTogether = () => {
                 Let’s work together
             </h4>
             <p className={`text-sm pt-4 lg:pt-2 lg:text-base w-full text-center lg:text-left lg:w-full`}>
-                We are architects of innovation, trailblazers of technological advancements, and partners in your success. As a dynamic and forward -thinking organisation  
+                  We empower businesses with innovative technology solutions that drive transformative growth and operational efficiency.
             </p>
         </article>
         <article className='flex lg:self-center'>
