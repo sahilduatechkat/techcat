@@ -11,12 +11,12 @@ export const ServicesWeProvide = () => {
             <h4 className={`font-bold text-[20px] text-center lg:text-left lg:text-[40px] xl:text-5xl w-full xl:w-[80%] lg:leading-[48px] xl:leading-[56px]`}>
                 We provide IT solution & services for any startups
             </h4>
-            <ul className={`${poppinsBold.className} list-decimal text-sm lg:text-base ml-[20px] mt-6 xl:w-[75%] flex flex-col gap-3 lg:gap-4`}>
+            <ul className={`list-decimal text-sm lg:text-base ml-[20px] mt-6 xl:w-[75%] flex flex-col gap-3 lg:gap-4`}>
                 <li className={` font-normal`}>
                     <span className={`${poppinsBold.className}`}>
                         Expertise Across Domains:
                     </span>
-                    <span className={` pl-1`}>
+                    <span className={` pl-1 font-normal`}>
                         Our diverse team brings together years of experience in market research, product management, design, and analytics.
                     </span>
                 </li>

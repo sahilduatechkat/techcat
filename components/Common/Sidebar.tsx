@@ -8,9 +8,18 @@ export const Sidebar = () => {
     const [open, setOpen] = useState(false)
     const [dropdown, setDropdown] = useState(true)
     
+    const toggleOpen = () => {
+        setOpen(!open)
+        if(!open) {
+            document.body.style.overflow = 'hidden'
+        } else {
+            document.body.style.overflow = 'auto'
+        }
+    }
+
     return (
         <div className='block lg:hidden h-[34px]'>
-            <button onClick={() => setOpen(!open)}>
+            <button onClick={toggleOpen}>
                 { open ? 
                     <X size={34} className='bg-[#5A3AEC] p-2 rounded-full' color='white' /> 
                     : 
@@ -22,7 +31,7 @@ export const Sidebar = () => {
                 <Link style={{ color: "#212121", textDecoration: 'none', fontWeight: '600' }} className='uppercase text-[#212121] no-underline' href="/about-us"> About us </Link>
                 <div className=''>
                     <button 
-                        className='uppercase font-semibold flex items-center justify-self-center'
+                        className='uppercase font-semibold flex items-center justify-self-center mx-auto'
                         onClick={() => setDropdown(!dropdown)}
                     >
                         Services
