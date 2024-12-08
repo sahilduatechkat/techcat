@@ -25,7 +25,7 @@ export const IntroSection = () => {
             <Image 
                 src={Intro}
                 alt="Intro"
-                className='w-[482px] lg:h-[400px] xl:h-[480px]' 
+                className='w-[482px] lg:h-[400px] xl:h-[480px] flex self-center' 
             />
         </div>
         <Image 

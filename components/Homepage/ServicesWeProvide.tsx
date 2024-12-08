@@ -6,7 +6,7 @@ import Decorator2 from '@/public/decorator-2.png'
 
 export const ServicesWeProvide = () => {
   return (
-    <div className='px-6 lg:px-[100px] py-[56px] lg:py-[120px] flex flex-col-reverse lg:flex-row gap-6 lg:gap-20'>
+    <div className='px-6 lg:px-[100px] py-[56px] lg:py-[120px] flex flex-col-reverse sm:flex-row lg:flex-row gap-6 lg:gap-20'>
         <article>
             <h4 className={`font-bold text-[20px] text-center lg:text-left lg:text-[40px] xl:text-5xl w-full xl:w-[80%] lg:leading-[48px] xl:leading-[56px]`}>
                 We provide IT solution & services for any startups
@@ -49,7 +49,7 @@ export const ServicesWeProvide = () => {
                 Lets discuss oppotunities
             </a>
         </article>
-        <article className='relative overflow-hidden'>
+        <article className='relative overflow-hidden flex justify-center'>
             <Image 
                 src={Decorator2}
                 alt='decorator'
