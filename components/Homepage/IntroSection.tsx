@@ -10,10 +10,10 @@ export const IntroSection = () => {
         <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-6 pt-4 px-1 lg:px-[100px] gap-1'>
             <article className='mt-[20px] lg:mt-auto'>
                 <h2 className={` text-[20px] leading-[33px] w-[90%] lg:text-[42px] lg:w-full lg:leading-tight xl:text-[51px] font-bold xl:w-[80%] xl:leading-[60px]`}>
-                    Solutions That Drive Growth and Transform Businesses
+                    Digital Solutions That Drive Growth and Transform Businesses
                 </h2>
                 <p className={`text-sm lg:text-lg xl:text-xl xl:w-[80%] mt-3 lg:mt-10`}> 
-                    We design, build, and deliver cutting-edge websites, apps, and strategies to empower businesses in the digital age. Let’s create something extraordinary together.
+                    We design, develop, and deliver cutting-edge websites, apps, and strategies to empower businesses in the digital age. Let’s create something extraordinary together.
                 </p>
                 <div className='flex-col lg:flex-row flex gap-4 mt-6'>
                     <Calendar />
