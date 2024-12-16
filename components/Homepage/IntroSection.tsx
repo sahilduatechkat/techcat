@@ -15,7 +15,7 @@ export const IntroSection = () => {
                 <p className={`text-sm lg:text-lg xl:text-xl xl:w-[80%] mt-3 lg:mt-10`}> 
                     We design, build, and deliver cutting-edge websites, apps, and strategies to empower businesses in the digital age. Let’s create something extraordinary together.
                 </p>
-                <div className='flex-col lg:flex-row flex gap-4 mt-6'>
+                <div className='flex-col lg:flex-row flex gap-1 mt-6'>
                     <Calendar />
                     <a href="/contact-us" className={`lg:mt-12 bg-white hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 py-[14px] lg:py-5 px-[60px] text-[#7000FF] border border-[#7000FF] rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
                         Get started
