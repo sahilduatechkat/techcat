@@ -9,7 +9,7 @@ export const IntroSection = () => {
     <div className='relative'>
         <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-6 pt-6 px-6 lg:px-[100px] gap-1'>
             <article className='mt-[20px] lg:mt-auto'>
-                <h2 className={` text-[20px] leading-[33px] w-[90%] lg:text-[42px] lg:w-full lg:leading-tight xl:text-[51px] font-bold xl:w-[80%] xl:leading-[60px]`}>
+                <h2 className={` text-[20px] leading-[33px] w-[90%] lg:text-[42px] lg:w-full lg:leading-tight xl:text-[51px] font-bold xl:w-[80%] xl:leading-[60px] mb-2`}>
                     Digital Solutions That Drive Growth and Transform Businesses
                 </h2>
                 <p className={`text-sm lg:text-lg xl:text-xl xl:w-[80%] mt-3 lg:mt-10`}> 
