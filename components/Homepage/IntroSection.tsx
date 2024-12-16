@@ -7,7 +7,7 @@ import Calendar from '@/components/Common/Calendar'
 export const IntroSection = () => {
   return (
     <div className='relative'>
-        <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-6 pt-4 px-1 lg:px-[100px] gap-1'>
+        <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-6 pt-6 px-6 lg:px-[100px] gap-1'>
             <article className='mt-[20px] lg:mt-auto'>
                 <h2 className={` text-[20px] leading-[33px] w-[90%] lg:text-[42px] lg:w-full lg:leading-tight xl:text-[51px] font-bold xl:w-[80%] xl:leading-[60px]`}>
                     Digital Solutions That Drive Growth and Transform Businesses
