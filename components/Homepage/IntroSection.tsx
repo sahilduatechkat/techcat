@@ -8,8 +8,8 @@ export const IntroSection = () => {
   return (
     <div className='relative'>
         <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-10 pt-4 px-6 lg:px-[100px] gap-6'>
-            <article className='mt-[26px] lg:mt-auto'>
-                <h2 className={` text-[26px] leading-[38px] w-[90%] lg:text-[48px] lg:w-full lg:leading-tight xl:text-[58px] font-bold xl:w-[80%] xl:leading-[64px]`}>
+            <article className='mt-[20px] lg:mt-auto'>
+                <h2 className={` text-[20px] leading-[33px] w-[90%] lg:text-[42px] lg:w-full lg:leading-tight xl:text-[51px] font-bold xl:w-[80%] xl:leading-[60px]`}>
                     Solutions That Drive Growth and Transform Businesses
                 </h2>
                 <p className={`text-sm lg:text-lg xl:text-xl xl:w-[80%] mt-3 lg:mt-10`}> 
