@@ -13,7 +13,7 @@ export const IntroSection = () => {
                     We provide best tech solutions for your business
                 </h2>
                 <p className={`text-sm lg:text-lg xl:text-xl xl:w-[80%] mt-3 lg:mt-10`}> 
-                    We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization
+                    We empower businesses with innovative technology solutions that drive transformative growth and operational efficiency.
                 </p>
                 <div className='flex-col lg:flex-row flex gap-4 mt-6'>
                     <Calendar />
