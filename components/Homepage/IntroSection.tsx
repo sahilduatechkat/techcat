@@ -7,7 +7,7 @@ import Calendar from '@/components/Common/Calendar'
 export const IntroSection = () => {
   return (
     <div className='relative'>
-        <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-6 pt-4 px-6 lg:px-[100px] gap-1'>
+        <div className='flex flex-col-reverse lg:flex-row lg:items-start xl:items-center py-6 pt-4 px-1 lg:px-[100px] gap-1'>
             <article className='mt-[20px] lg:mt-auto'>
                 <h2 className={` text-[20px] leading-[33px] w-[90%] lg:text-[42px] lg:w-full lg:leading-tight xl:text-[51px] font-bold xl:w-[80%] xl:leading-[60px]`}>
                     Solutions That Drive Growth and Transform Businesses
@@ -15,7 +15,7 @@ export const IntroSection = () => {
                 <p className={`text-sm lg:text-lg xl:text-xl xl:w-[80%] mt-3 lg:mt-10`}> 
                     We design, build, and deliver cutting-edge websites, apps, and strategies to empower businesses in the digital age. Let’s create something extraordinary together.
                 </p>
-                <div className='flex-col lg:flex-row flex gap-1 mt-6'>
+                <div className='flex-col lg:flex-row flex gap-4 mt-6'>
                     <Calendar />
                     <a href="/contact-us" className={`lg:mt-12 bg-white hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 py-[14px] lg:py-5 px-[60px] text-[#7000FF] border border-[#7000FF] rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
                         Get started
