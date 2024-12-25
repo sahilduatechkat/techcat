@@ -18,7 +18,7 @@ export default function AboutUsPage() {
             <h6 className='text-xl text-[#212121] lg:text-5xl font-bold relative z-10 text-center mb-6 lg:mb-[60px]'>
                 What We Do
             </h6>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 border border-[#E7E7E7] lg:border-0'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 border border-[#E7E7E7] lg:border-0 items-baseline'>
                 <ServiceCard icon="/aboutpage/web-development.png" title={"Web & App Development"} description={"Creating scalable, high-performing websites tailored to your business needs."} />
                 <ServiceCard icon="/aboutpage/ui-ux.png" title={"Product UI/UX Design"} description={"Designing intuitive and user-centric poppinsfaces for digital products."} />
                 <ServiceCard icon="/aboutpage/product-management.png" title={"Product Management"} description={"Strategizing, planning, and delivering products that align with your business goals."} />

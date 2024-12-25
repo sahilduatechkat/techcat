@@ -6,7 +6,7 @@ import Sidebar from './Common/Sidebar'
 
 export const Header = () => {
   return (
-    <div className='flex justify-between py-6 lg:py-10 px-6 lg:px-[80px] xl:px-[100px] items-center relative'>
+    <div className='flex justify-between py-6 lg:py-10 px-6 lg:px-[80px] xl:px-[100px] items-center relative z-[1000]'>
         <Link href="/">
           <Image src={Logo} alt="Logo" className="w-[130px] lg:w-[216px] h-[40px] lg:h-[66px]" /> 
         </Link>
