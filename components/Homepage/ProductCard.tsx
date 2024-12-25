@@ -3,7 +3,7 @@ import React from 'react'
 
 export const ProductCard = ({ title, subtitle, titleClassName, icon, url }: { title: string, subtitle: string, titleClassName?: string, icon?: string, url: string }) => {
   return (
-    <a href={url} className={`bg-white hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 p-6 lg:p-8 inline-flex flex-col justify-between gap-2 group relative`}>
+    <a href={url} className={`bg-white hover:bg-[#9EE463] hover:text-[#5A3AEC] transition-all duration-300 p-6 lg:p-8 inline-flex flex-col justify-between gap-2 group relative`}>
       <div>
         <Image 
             src={icon || ''}

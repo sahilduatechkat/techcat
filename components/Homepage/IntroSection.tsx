@@ -17,7 +17,7 @@ export const IntroSection = () => {
                 </p>
                 <div className='flex-col lg:flex-row flex gap-4 mt-6'>
                     <Calendar />
-                    <a href="/contact-us" className={`lg:mt-12 bg-white hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 py-[14px] lg:py-5 px-[60px] text-[#7000FF] border border-[#7000FF] rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
+                    <a href="/contact-us" className={`lg:mt-12 bg-white hover:bg-[#9EE463] hover:text-[#5A3AEC] transition-all duration-300 py-[14px] lg:py-5 px-[60px] text-[#5A3AEC] border border-[#5A3AEC] rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
                         Get started
                     </a>
                 </div>

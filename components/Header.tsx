@@ -11,10 +11,10 @@ export const Header = () => {
           <Image src={Logo} alt="Logo" className="w-[130px] lg:w-[216px] h-[40px] lg:h-[66px]" /> 
         </Link>
         <article className={`hidden lg:flex items-center lg:space-x-10 xl:space-x-20 font-medium`}>
-            <Link className='uppercase font-medium hover:text-[#7000FF]' href="/"> Home </Link>
-            <Link className='uppercase font-medium hover:text-[#7000FF]' href="/about-us"> About us </Link>
+            <Link className='uppercase font-medium hover:text-[#5A3AEC]' href="/"> Home </Link>
+            <Link className='uppercase font-medium hover:text-[#5A3AEC]' href="/about-us"> About us </Link>
             <div className="relative group">
-                <button className='uppercase font-medium flex items-center hover:text-[#7000FF]'>
+                <button className='uppercase font-medium flex items-center hover:text-[#5A3AEC]'>
                     Services
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -28,27 +28,27 @@ export const Header = () => {
                       width={24}
                       height={28}
                   /> */}
-                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/mobile-app-development">
+                  <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/mobile-app-development">
                     Mobile App Development
                   </Link>
-                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/web-development">
+                  <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/web-development">
                     Web Development
                   </Link>
-                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/ui-ux-design">
+                  <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/ui-ux-design">
                     UI/UX Design
                   </Link>
-                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/market-research">
+                  <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/market-research">
                     Market Research
                   </Link>
-                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/product-management">
+                  <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/product-management">
                     Product Management
                   </Link>
-                  <Link className='block px-4 py-2 hover:bg-[#7000FF] hover:text-white' href="/services/analytics-data-science">
+                  <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/analytics-data-science">
                     Analytics and Data science
                   </Link>
                 </div>
             </div>
-            <Link className='bg-[#7000FF] py-3 px-8 text-white rounded-sm font-medium' href="/contact-us"> Contact us </Link>
+            <Link className='bg-[#5A3AEC] py-3 px-8 text-white rounded-sm font-medium' href="/contact-us"> Contact us </Link>
         </article>
         <Sidebar />
     </div>

@@ -21,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta property="og:image" content="/logo.png" />
       <body
         className={`${poppins.className} antialiased`}
       >

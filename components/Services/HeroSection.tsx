@@ -18,7 +18,7 @@ export const HeroSection = ({ title, heading, subheading }: HeroSectionProps) =>
         <p className={`text-sm xl:text-base font-normal pt-3 lg:pt-4`}>
             {subheading}
         </p>
-        <a href="/contact-us" className={`mt-6 lg:mt-12 bg-[#7000FF] hover:bg-[#212121] transition-all duration-300 py-[14px] lg:py-5 px-[80px] text-white border rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
+        <a href="/contact-us" className={`mt-6 lg:mt-12 bg-[#5A3AEC] hover:bg-[#212121] transition-all duration-300 py-[14px] lg:py-5 px-[80px] text-white border rounded-sm text-[18px] text-center lg:text-lg xl:text-xl font-medium w-full lg:w-auto inline-block`}>
             Get started
         </a>
     </div>

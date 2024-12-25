@@ -45,7 +45,7 @@ export const ServicesWeProvide = () => {
                     </span>
                 </li>
             </ul>
-            <a href="/contact-us" className={`bg-[#7000FF] hover:bg-[#9EE463] hover:text-[#7000FF] transition-all duration-300 text-white text-sm text-center lg:text-lg xl:text-xl font-medium py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
+            <a href="/contact-us" className={`bg-[#5A3AEC] hover:bg-[#9EE463] hover:text-[#5A3AEC] transition-all duration-300 text-white text-sm text-center lg:text-lg xl:text-xl font-medium py-[14px] lg:py-5 px-10 block lg:inline-block mt-8 lg:mt-12`}>
                 Lets discuss oppotunities
             </a>
         </article>

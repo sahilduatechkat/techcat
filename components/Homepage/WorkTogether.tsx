@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkTogether = () => {
   return (
-    <div className='mt-[56px] lg:mt-[120px] px-6 gap-8 lg:px-[100px] py-12 lg:py-[80px] bg-[#7000FF] flex-col lg:flex-row text-white flex justify-end'>
+    <div className='mt-[56px] lg:mt-[120px] px-6 gap-8 lg:px-[100px] py-12 lg:py-[80px] bg-[#5A3AEC] flex-col lg:flex-row text-white flex justify-end'>
         <article className='grow'>
             <h4 className={`text-[20px] font-bold text-center lg:text-left lg:text-[40px] xl:text-5xl`}>
                 Let’s work together

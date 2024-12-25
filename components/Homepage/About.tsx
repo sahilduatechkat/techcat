@@ -11,7 +11,7 @@ export const About = () => {
                 At Tech Katalyst, we believe in the power of innovation and strategic thinking. Our goal is to bridge the gap between ideas and successful implementation, helping businesses navigate complex markets and thrive in the digital age. By combining deep industry insights with cutting-edge technology, we strive to deliver solutions that exceed our client&apos;s expectations. 
             </p>
             <article className='mt-6 lg:mt-[60px] mx-auto text-center'>
-                <a href="/about-us" className={`bg-[#7000FF] hover:bg-[#212121] text-white text-base lg:text-lg xl:text-xl font-medium py-[14px] lg:py-5 px-20 block lg:inline-block`}>
+                <a href="/about-us" className={`bg-[#5A3AEC] hover:bg-[#212121] text-white text-base lg:text-lg xl:text-xl font-medium py-[14px] lg:py-5 px-20 block lg:inline-block`}>
                     Explore about us
                 </a>
             </article>
