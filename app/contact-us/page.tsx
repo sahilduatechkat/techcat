@@ -30,10 +30,10 @@ export default function ContactUsPage() {
                         <p className='text-[#212121] font-medium'>Visit us</p>
                         <p className='text-[#8A8A8A] text-sm'>Come say hello at our office HQ</p>
                         <p className='mt-3 text-sm text-[#212121]'>
-                            First Floor, Plot No.9, Sector 115, Noida Uttar Pradesh 201301 India
+                            119 Broadway, FL 1, Jersey City, New Jersey 07306 United States
                         </p>
                         <p className='mt-3 text-sm text-[#212121]'>
-                            119 Broadway, FL 1, Jersey City, New Jersey 07306 United States
+                            First Floor, Plot No.9, Sector 115, Noida Uttar Pradesh 201301 India
                         </p>
                     </ContactBulletPoint>
                     <ContactBulletPoint className="mb-10" imageSrc="/images/call-us.png">
