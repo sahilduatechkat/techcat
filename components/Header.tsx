@@ -13,6 +13,7 @@ export const Header = () => {
         <article className={`hidden lg:flex items-center lg:space-x-10 xl:space-x-20 font-medium`}>
             <Link className='uppercase font-medium hover:text-[#5A3AEC]' href="/"> Home </Link>
             <Link className='uppercase font-medium hover:text-[#5A3AEC]' href="/about-us"> About us </Link>
+            {/* <Link className='uppercase font-medium hover:text-[#5A3AEC]' href="/blogs"> Blogs </Link> */}
             <div className="relative group">
                 <button className='uppercase font-medium flex items-center hover:text-[#5A3AEC]'>
                     Services
@@ -44,7 +45,7 @@ export const Header = () => {
                     Product Management
                   </Link>
                   <Link className='block px-4 py-2 hover:bg-[#5A3AEC] hover:text-white' href="/services/analytics-data-science">
-                    Analytics and Data science
+                    Analytics & Data science
                   </Link>
                 </div>
             </div>

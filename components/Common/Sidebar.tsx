@@ -29,6 +29,7 @@ export const Sidebar = () => {
             <div className={`w-full h-screen bg-white flex flex-col gap-6 justify-start text-center text-[#212121] absolute left-0 top-full z-10 transition-all duration-300 ${open ? 'max-h-[1000px] opacity-100 py-4' : 'max-h-0 opacity-0 overflow-hidden p-0'}`}>
                 <Link style={{ color: "#212121", textDecoration: 'none', fontWeight: '600' }} className='uppercase text-[#212121] no-underline' href="/"> Home </Link>
                 <Link style={{ color: "#212121", textDecoration: 'none', fontWeight: '600' }} className='uppercase text-[#212121] no-underline' href="/about-us"> About us </Link>
+                {/*<Link style={{ color: "#212121", textDecoration: 'none', fontWeight: '600' }} className='uppercase text-[#212121] no-underline' href="/blogs"> Blogs </Link> */}
                 <div className=''>
                     <button 
                         className='uppercase font-semibold flex items-center justify-self-center mx-auto'
