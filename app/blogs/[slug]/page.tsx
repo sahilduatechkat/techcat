@@ -67,7 +67,7 @@ const blogPosts = [
   
         <h2 className="mb-4"><strong>Why Use Hooks?</strong></h2>
         <p className="mb-6">
-          Before Hooks, state management and lifecycle methods were only available in class components. Hooks solve this by letting you "hook into" React state and lifecycle features from functional components, making your code cleaner, more reusable, and easier to understand.
+          Before Hooks, state management and lifecycle methods were only available in class components. Hooks solve this by letting you &quot;hook into&quot; React state and lifecycle features from functional components, making your code cleaner, more reusable, and easier to understand.
         </p>
   
         <h2 className="mb-4"><strong>Essential React Hooks</strong></h2>
