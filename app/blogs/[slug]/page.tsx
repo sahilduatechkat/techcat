@@ -31,7 +31,7 @@ const blogPosts = [
               AI can also be used to create highly personalized user experiences. By analyzing user data and behavior, AI can tailor website content, recommendations, and even the overall design to individual users. This can lead to increased engagement, conversion rates, and customer satisfaction.
           </p>
           <ul className="list-disc pl-6 mb-6">
-              <li className="mb-2">Personalized Recommendations: AI can recommend products, services, or content based on a user's past behavior and preferences.</li>
+              <li className="mb-2">Personalized Recommendations: AI can recommend products, services, or content based on a user&apos;s  past behavior and preferences.</li>
               <li className="mb-2">Dynamic Content Personalization: AI can dynamically adjust website content based on user demographics, location, and other factors.</li>
               <li className="mb-2">AI-Powered Chatbots: Chatbots can provide personalized customer support and answer user queries in real-time.</li>
           </ul>
@@ -43,7 +43,7 @@ const blogPosts = [
 
           <h3 className="mb-4"><strong>The Future Landscape</strong></h3>
           <p className="mb-6">
-              The future of AI in web development is bright. As AI technology continues to evolve, we can expect to see even more innovative applications emerge. AI will likely become an integral part of the web development workflow, empowering developers to build more efficient, personalized, and secure websites. However, it's crucial to acknowledge that AI is a tool to augment human capabilities, not replace them entirely. The human element of creativity, strategic thinking, and user empathy will remain essential in web development.
+              The future of AI in web development is bright. As AI technology continues to evolve, we can expect to see even more innovative applications emerge. AI will likely become an integral part of the web development workflow, empowering developers to build more efficient, personalized, and secure websites. However, it&apos;s  crucial to acknowledge that AI is a tool to augment human capabilities, not replace them entirely. The human element of creativity, strategic thinking, and user empathy will remain essential in web development.
           </p>
 
           <p className="mb-6">
@@ -178,7 +178,7 @@ const getBlogPost = (slug: string) => {
 
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  var { slug } = params;
+  const { slug } = params;
   console.log(slug)
 
   const blogPost = getBlogPost(slug);
