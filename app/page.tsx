@@ -1,5 +1,5 @@
 import About from '@/components/Homepage/About';
-import Blogs from "@/app/blogs/page"
+//import Blogs from "@/app/blogs/page";
 // import AboutClients from '@/components/Homepage/AboutClients';
 import AreasWeCover from '@/components/Homepage/AreasWeCover';
 import { ClientsWeServed } from '@/components/Homepage/ClientsWeServed';
@@ -20,7 +20,6 @@ export default function Home() {
       <ClientsWeServed />
       {/* <AboutClients /> */}
       <WorkTogether />
-      {/*<Blogs />*/}
     </div>
   );
 }
