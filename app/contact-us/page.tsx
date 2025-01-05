@@ -33,8 +33,10 @@ export default function ContactUsPage() {
                             119 Broadway, FL 1, Jersey City, New Jersey 07306 United States
                         </p>
                         <p className='mt-3 text-sm text-[#212121]'>
-                            
-                            First Floor, Plot No.9, Sector 115, Noida Uttar Pradesh, 201301 India
+                            119 Broadway, FL 1, Jersey City, New Jersey 07306 United States
+                        </p>
+                        <p className='mt-3 text-sm text-[#212121]'>
+                            First Floor, Plot No.9, Sector 115, Noida Uttar Pradesh 201301 India
                         </p>
                         
                     </ContactBulletPoint>
@@ -70,7 +72,6 @@ export default function ContactUsPage() {
     </div>
   )
 }
-
 
 const ContactBulletPoint = ({imageSrc, className, children}: {imageSrc: string, className?: string, children: React.ReactNode}) => {
     return (
