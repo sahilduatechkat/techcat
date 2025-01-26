@@ -7,6 +7,7 @@ export default function AboutUsPage() {
   return (
     <div className="">
         <div className='bg-[#5A3AEC] w-full py-10 lg:py-20'>
+            
             <h3 className='text-white text-[30px] lg:text-[60px] font-bold relative z-10 text-center'>
                 About Us
             </h3>

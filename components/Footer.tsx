@@ -55,6 +55,7 @@ const Footer = () => {
         <hr className='border-solid border-t-[#ffffff3d] my-[32px] lg:my-10' />
         <div className='flex gap-20 text-white'>
             <Link className='text-sm text-white hover:text-[#9EE463]' href="/about-us">About us</Link>
+            <Link className='text-sm text-white hover:text-[#9EE463]' href="/blogs">Blogs</Link>
             <Link className='text-sm text-white hover:text-[#9EE463]' href="/contact-us">Contact us</Link>
         </div>
         <p className='text-sm text-[rgba(255,255,255,0.6)] mt-6 lg:text-center'>
