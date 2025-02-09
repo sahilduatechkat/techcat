@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image'; // If using Next.js for image optimization
 
-export const Blogs = () => {
+export default function BlogsPage() {
   const blogPosts = [
     {
       title: 'The Future of AI in Web Development',
@@ -18,21 +18,7 @@ export const Blogs = () => {
       date: 'Date: 2024-07-19',
       image: '/images/react_hook.jpg',
       slug: 'react-hooks-guide',
-    },
-    // {
-    //     title: 'Building Scalable APIs with Node.js',
-    //     excerpt: 'Discover best practices for designing and implementing robust and scalable APIs using Node.js and Express.',
-    //     date: 'Date: 2024-07-12',
-    //     image: '/images/ai.jpg',
-    //     slug: 'node-api-guide',
-    //   },
-    //   {
-    //     title: 'Building Modern UI/UX',
-    //     excerpt: 'Learn how to create visually appealing and user-friendly interfaces with modern UI/UX principles and tools.',
-    //     date: 'Date: 2024-07-05',
-    //     image: '/images/ai.jpg',
-    //     slug: 'modern-ui-ux',
-    //   },
+    }
   ];
 
   return (
@@ -50,29 +36,13 @@ export const Blogs = () => {
         </p>
       </div>
 
-      {/* Blog Card Section */}
-      <div className="container mx-auto py-12 px-6 lg:px-0"> {/* Added container for centering */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16"> {/* Responsive grid */}
+      <div className="container mx-auto py-12 px-6 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
           {blogPosts.map((post) => (
             <div key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden">
-                {/* Conditionally render the image if a path is provided */}
                 {post.image && (
-                    <div className="relative h-48"> {/* Set a fixed height for the image container */}
-                        {/* Use next/image for optimized images if in Next.js */}
-                        {typeof Image === 'function' ? (
-                            <Image
-                                src={post.image}
-                                alt={post.title}
-                                fill
-                                style={{ objectFit: 'cover' }} // Maintain aspect ratio and cover the container
-                            />
-                        ) : (
-                            <img
-                                src={post.image}
-                                alt={post.title}
-                                className="object-cover w-full h-full"
-                            />
-                        )}
+                    <div className="relative h-48">
+                        <Image src={post.image} alt={post.title} fill style={{ objectFit: 'cover' }} />
                     </div>
                 )}
               <div className="p-6">
@@ -90,5 +60,3 @@ export const Blogs = () => {
     </div>
   );
 };
-
-export default Blogs;

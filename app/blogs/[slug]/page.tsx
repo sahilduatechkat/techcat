@@ -3,7 +3,6 @@ import Image from 'next/image';
 import React from 'react';
 import { notFound } from 'next/navigation';
 
-// Mock blog data (Replace with your database or API call)
 const blogPosts = [
   {
     slug: 'future-of-ai',
@@ -148,35 +147,30 @@ const getBlogPost = (slug: string) => {
   return blogPosts.find((post) => post.slug === slug);
 };
 
-interface Params {
-  slug: string;
-}
+type Params = Promise<{ slug: string[] }>
 
-interface PageProps {
-  params: Params;
-  searchParams?: { [key: string]: string | string[] | undefined };
-}
-
-export default function BlogPostPage({ params }: PageProps) {
-  const blogPost = getBlogPost(params.slug);
+export default async function BlogPostPage({ params }: { params: Params }) {
+  const { slug } = await params;
+  console.log(typeof slug);
+  const blogPost = getBlogPost(String(slug));
 
   if (!blogPost) {
-    notFound(); // Important: Handle the case where the post is not found
-    return null; // Stop further execution
+    notFound();
+    return null;
   }
 
   return (
     <main>
       <div className="bg-[#5A3AEC] w-full py-10 lg:py-20">
         <h1 className="text-white text-[30px] lg:text-[60px] font-bold relative z-10 text-center">
-          {blogPost.title} {/* Now safe because of the check above */}
+          {blogPost.title}
         </h1>
       </div>
 
       <div className="container mx-auto py-12 px-10 lg:px-16">
         <div className="bg-white rounded-lg shadow-md overflow-hidden p-8">
           <div className="prose lg:prose-xl">
-            {blogPost.content} {/* Now safe because of the check above */}
+            {blogPost.content}
           </div>
         </div>
       </div>
