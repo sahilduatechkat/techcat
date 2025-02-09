@@ -13,6 +13,8 @@ export const ClientsWeServed = () => {
         "/satsheel.png",
         "/icare.png",
         "/buzzli.png",
+        "/coal.png",
+        "/Visaistic.png"
     ]
 
     return (
