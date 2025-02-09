@@ -1,4 +1,5 @@
 import redis from '@/lib/redis';
+import sgMail from '@sendgrid/mail';
 
 // Helper function to generate a unique submission ID (could use UUID or timestamp)
 const generateSubmissionId = () => {
@@ -67,6 +68,31 @@ export async function POST(request: Request) {
         submission_date: submissionDate,
         ...fields,  // Include all form fields dynamically
     };
+
+    sgMail.setApiKey(process.env.NEXT_PUBLIC_TWILIO_KEY as string);
+    const msg = {
+        to: process.env.NEXT_PUBLIC_TO_EMAIL as string,
+        from: process.env.NEXT_PUBLIC_FROM_EMAIL as string,
+        subject: 'New Contact Form Submission',
+        text: 'and easy to do anywhere, even with Node.js',
+        html: `
+            <div>
+                <h2>New Contact Form Submission</h2>
+                <p><strong>Name:</strong> ${fields.name}</p>
+                <p><strong>Email:</strong> ${fields.email}</p>
+                <p><strong>Address:</strong> ${fields.address}</p>
+                <p><strong>Message:</strong> ${fields.message}</p>
+                <p><strong>Submission Date:</strong> ${submissionDate}</p>
+            </div>
+        `,
+    }
+
+    try {
+        await sgMail.send(msg);
+        console.log('Email sent');
+    } catch (error) {
+        console.error(error);
+    }
 
     // Save form submission as a Redis Hash
     await redis.hmset(formKey, submissionData);
