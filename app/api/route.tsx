@@ -80,7 +80,8 @@ export async function POST(request: Request) {
                 <h2>New Contact Form Submission</h2>
                 <p><strong>Name:</strong> ${fields.name}</p>
                 <p><strong>Email:</strong> ${fields.email}</p>
-                <p><strong>Address:</strong> ${fields.address}</p>
+                <p><strong>Company:</strong> ${fields.company}</p>
+                <p><strong>Mobile number:</strong> ${fields.mobile}</p>
                 <p><strong>Message:</strong> ${fields.message}</p>
                 <p><strong>Submission Date:</strong> ${submissionDate}</p>
             </div>
