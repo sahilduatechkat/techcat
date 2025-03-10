@@ -41,7 +41,7 @@ export default function ContactUsPage() {
                         <p className='text-[#212121] font-medium'>Call us</p>
                         <p className='text-[#8A8A8A] text-sm'>Mon - Fri from 10am to 5pm</p>
                         <p className='mt-3 text-sm text-[#212121]'>
-                            +91-9555811118
+                            +91 76785 58049
                         </p>
                     </ContactBulletPoint>
                 </div>
