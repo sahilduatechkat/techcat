@@ -61,13 +61,13 @@ export async function POST(request: Request) {
     const submissionId = generateSubmissionId();
 
     // Save form details in Redis Hash
-    const formKey = `form:${formType}:${submissionId}`;
-    const submissionData = {
-        form_type: formType,
-        user_id: userId,
-        submission_date: submissionDate,
-        ...fields,  // Include all form fields dynamically
-    };
+    // const formKey = `form:${formType}:${submissionId}`;
+    // const submissionData = {
+    //     form_type: formType,
+    //     user_id: userId,
+    //     submission_date: submissionDate,
+    //     ...fields,  // Include all form fields dynamically
+    // };
 
     sgMail.setApiKey(process.env.NEXT_PUBLIC_TWILIO_KEY as string);
     const msg = {
@@ -96,14 +96,14 @@ export async function POST(request: Request) {
     }
 
     // Save form submission as a Redis Hash
-    await redis.hmset(formKey, submissionData);
+    // await redis.hmset(formKey, submissionData);
 
     // Save the submission date in a sorted set for querying by date range
-    const timestamp = new Date(submissionDate).getTime();
-    const dateKey = `form:${formType}:dates`;
+    // const timestamp = new Date(submissionDate).getTime();
+    // const dateKey = `form:${formType}:dates`;
 
     // Add the submission ID to the sorted set with the submission timestamp as the score
-    await redis.zadd(dateKey, timestamp, submissionId);
+    // await redis.zadd(dateKey, timestamp, submissionId);
 
     return new Response(JSON.stringify({ 
         message: 'Form submitted successfully', 
